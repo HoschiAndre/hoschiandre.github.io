@@ -30,7 +30,7 @@ twitter_username: HoschiAndre
 github_username:  HoschiAndre
 
 # Build settings
-theme: jekyll-theme-architect
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
