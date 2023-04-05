@@ -14,25 +14,10 @@ export class AppComponent implements OnInit {
   imageDavin: string = "";
 
   ngOnInit() {
-    this.imageAndre = this.getUrl(Name.Andre);
-    this.imageBeate = this.getUrl(Name.Beate);
-    this.imageCecile = this.getUrl(Name.Cecile);
-    this.imageDavin = this.getUrl(Name.Davin);
-  }
-
-  getUrl(name: string): string {
-    switch (name) {
-      case Name.Andre:
-        return this.getRandomUrl(Name.Andre);
-      case Name.Beate:
-        return this.getRandomUrl(Name.Beate);
-      case Name.Cecile:
-        return this.getRandomUrl(Name.Cecile);
-      case Name.Davin:
-        return this.getRandomUrl(Name.Davin);
-      default:
-        return "";
-    }
+    this.imageAndre = this.getRandomUrl(Name.Andre);
+    this.imageBeate = this.getRandomUrl(Name.Beate);
+    this.imageCecile = this.getRandomUrl(Name.Cecile);
+    this.imageDavin = this.getRandomUrl(Name.Davin);
   }
 
   private getRandomUrl(name: string): string {
