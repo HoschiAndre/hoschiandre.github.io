@@ -1,0 +1,18 @@
+.image-box {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: space-evenly;
+}
+
+.circle-img {
+  height: 200px;
+  width: 200px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 99%;
+  height: 50px;
+}
