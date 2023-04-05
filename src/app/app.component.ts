@@ -20,6 +20,10 @@ export class AppComponent implements OnInit {
     this.imageDavin = this.getRandomUrl(Name.Davin);
   }
 
+  onClick(): void {
+    window.location.reload();
+  }
+
   private getRandomUrl(name: string): string {
     let count = this.randomIntFromInterval(1, 51);
     let baseUrl = "./assets/images/";
